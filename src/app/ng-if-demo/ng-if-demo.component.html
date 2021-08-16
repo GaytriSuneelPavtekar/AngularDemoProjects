@@ -1,0 +1,10 @@
+<p>ng-if-demo works!</p>
+
+<div *ngIf="flag; then ifBlock; else elseBlock">
+</div>
+<ng-template #ifBlock>
+    <h1>If Block</h1>
+</ng-template>
+<ng-template #elseBlock>
+    <h1>Else Block</h1>
+</ng-template>

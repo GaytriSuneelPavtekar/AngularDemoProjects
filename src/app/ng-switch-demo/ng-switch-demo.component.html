@@ -1,0 +1,19 @@
+<p>ng-switch-demo works!</p>
+<div [ngSwitch]="batch">
+
+    <div *ngSwitchCase="'PPA'">
+        PPA Batch
+    </div>
+    <div *ngSwitchCase="'LB'">
+        LB Batch
+    </div>
+    <div *ngSwitchCase="'Web'">
+        Web Batch
+    </div>
+    <div *ngSwitchCase="'Project'">
+        Project Batch
+    </div>
+    <div *ngSwitchDefault>
+        Wrong Selection
+    </div>
+</div>
